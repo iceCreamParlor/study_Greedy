@@ -23,7 +23,7 @@ int main(){
 	int div = num/6, resid = num % 6;
 	if(arr1[0] >= arr2[0]*6 )
 		result = arr2[0]*num;
-	else 
+	else
 		result = min(arr1[0]*div + arr2[0]*resid, arr1[0]*(div+1));
 	cout << result;
 	return 0;
